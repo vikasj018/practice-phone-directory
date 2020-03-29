@@ -1,13 +1,16 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-class App extends Component {
-  render() {
+function App() {
   return (
     <div>
       Phone Directory
+    </div>,
+    <button>Add</button>,
+    <div>
+      <span>Name</span><br></br>
+      <span>Phone</span>
     </div>
   );
-}
 }
 
 export default App;
